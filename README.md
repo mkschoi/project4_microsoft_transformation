@@ -4,7 +4,9 @@
 ### Motivation - Incorporating NLP into qualitative investment analysis
 
 - I’m a firm believer that a qualitative analysis of a company is as important or in some cases, more important than a quantitative analysis when it comes to investing.  One of the key components of that analysis is understanding the CEO - his philosophy, strategy, and culture he brings down on the company. 
+
 - The work becomes even more paramount when there is a CEO change.  The place where investors get to have a view into a CEO’s mind is when the company hosts quarterly investor calls to discuss financial results.  So that’s where I was naturally drawn to see if NLP can be applied. 
+
 - I chose to look at Microsoft, because it is a perfect example of where a change in CEO catalyzed a transformation in the company.  New CEO Satya Nadella, took over the reins from Steve Ballmer in February 2014, and the changes he made over the next seven years translated to a financial success as well. So my goal was to analyze Microsoft’s earnings transcripts in pre- and post-Satya Nadella days to extract insights about how the company’s philosophy and strategy evolved over time.
 
 ### Data and Tools 
@@ -29,7 +31,7 @@ I performed topic modeling to get five topics, each comprised of six topic words
 
 ### Keyword frequency - how has Microsoft’s strategy evolved over time?
 
-- Now I wanted to take a closer look and see if certain keywords gained or lost importance over time as Microsoft’s strategy and philosophy changed. 
+Now I wanted to take a closer look and see if certain keywords gained or lost importance over time as Microsoft’s strategy and philosophy changed. 
 
 - As you would expect the words like 'cloud', 'AI' and 'SaaS' have increased over time under Satya Nadella.  On the other hand, words like 'license', 'piracy', and 'shipment' decreased in importance over time as the company moved away from licensed software model and hardware strategy.  
 
@@ -42,9 +44,9 @@ I performed topic modeling to get five topics, each comprised of six topic words
 
 ### Sentiment analysis - Has the tone gotten more positive or negative over time?
 
-- I performed sentiment analysis to see if I could gain additional insights on the tone of the earnings call and link it back to changes in philosophy and strategy.  I used Loughran-McDonald Financial Sentiment Dictionary to find the count of words in the transcripts that match those from the dictionary in the positive, negative, and uncertainty categories. 
+Then, I performed sentiment analysis to see if I could gain additional insights on the tone of the earnings call and link it back to changes in philosophy and strategy.  I used Loughran-McDonald Financial Sentiment Dictionary to find the count of words in the transcripts that match those from the dictionary in the positive, negative, and uncertainty categories. 
 
-The sentiment of the calls turned pretty negative during the recession, and it also detected a lot of ‘uncertainty’ during the period.  Also, the sentiment was highly positive immediately before and after the financial crisis.  It appears that the rest of the periods doesn’t show any particular trend… 
+- The sentiment of the calls turned pretty negative during the recession, and it also detected a lot of ‘uncertainty’ during the period.  Also, the sentiment was highly positive immediately before and after the financial crisis.  It appears that the rest of the periods doesn’t show any particular trend… 
 
 ![](Charts/sentiment_analysis_heatmap_ppt.png)
 
@@ -59,6 +61,8 @@ The sentiment of the calls turned pretty negative during the recession, and it a
 - My biggest takeaway is that from looking at the topic models, frequency of words, and sentiment over time, the positive change in Microsoft’s philosophy and strategy under Satya Nadella was pretty evident.  My next steps are to split my documents into smaller parts such as by speaker or by sentence to see if I get different results.  I could also perform similar NLP analysis on another case where a change in CEO brought about a failed transformation in the company and compare the findings with those of Microsoft.  
 
 **Further plots and results can be found in the [project presentation](Presentation/Metis_Project4_PPT_vF.pdf). The main project code can by found in the four Jupyter notebook files located [here](Notebooks).**
+
+### Appendix
 
 ![](Charts/scattertext_plot_ppt.png)
 
