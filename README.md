@@ -60,6 +60,8 @@ Then, I performed sentiment analysis to see if I could gain additional insights 
 
 - My biggest takeaway is that from looking at the topic models, frequency of words, and sentiment over time, the positive change in Microsoft’s philosophy and strategy under Satya Nadella was pretty evident.  My next steps are to split my documents into smaller parts such as by speaker or by sentence to see if I get different results.  I could also perform similar NLP analysis on another case where a change in CEO brought about a failed transformation in the company and compare the findings with those of Microsoft.  
 
+**Please check out my blog post on this project [here](https://mikechoi90.medium.com/investigating-microsofts-transformation-under-satya-nadella-f49083294c35)
+
 **Further plots and results can be found in the [project presentation](Presentation/Metis_Project4_PPT_vF.pdf). The main project code can by found in the four Jupyter notebook files located [here](Notebooks).**
 
 ### Appendix
