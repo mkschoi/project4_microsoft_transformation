@@ -62,7 +62,7 @@ Then, I performed sentiment analysis to see if I could gain additional insights 
 
 **Please check out my blog post on this project [here](https://mikechoi90.medium.com/investigating-microsofts-transformation-under-satya-nadella-f49083294c35).**
 
-**Further plots and results can be found in the [project presentation](Presentation/Metis_Project4_PPT_vF.pdf). The main project code can by found in the four Jupyter notebook files located [here](Notebooks).**
+**Further plots and results can be found in the [project presentation](Presentation/Metis_Project4_PPT_vF.pdf). The main project code can by found in .py files and Jupyter notebooks located [here](Code).**
 
 ### Appendix
 
